@@ -1,0 +1,260 @@
+.maincontainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero {
+  background-size: cover;
+  background-color: #3f3f3f;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.herotext {
+  padding-top: 140px;
+  padding-right: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  float: left;
+}
+
+.herotext h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.UXUIBackground h1 {
+  background-image: url("/img/Vector.png");
+  background-repeat: no-repeat;
+  padding: 20px 15px;
+  color: #6da8bb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* .UXUIBackground {
+  animation: stroke 2s ease-in-out;
+}
+
+@keyframes stroke {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 500px;
+  }
+} */
+
+.heroilustration {
+  padding: 50px;
+  padding-right: 70px;
+  float: right;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: right;
+}
+
+.menu {
+  background-image: url("/img//Vector-1.png");
+  background-repeat: no-repeat;
+  width: 134px;
+  margin: 0;
+  padding: 0;
+  top: 1px;
+  border: 0;
+  float: left;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.menu ul {
+  padding-top: 175px;
+  list-style: none;
+}
+
+.menu a {
+  margin-left: -30px;
+}
+
+.buttons {
+  padding-top: 70px;
+}
+
+.action_btnget {
+  width: 197px;
+  height: 59px;
+  background: #3f3f3f;
+  border-color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  margin-left: 100px;
+}
+
+.action_btnrecent {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  width: 197px;
+  height: 59px;
+  background: #3c6a78;
+  border: 2px;
+}
+
+.textright {
+  position: relative;
+  float: right;
+  transform: translate(-2%);
+  width: 100%;
+  max-width: 800px;
+  bottom: 350px;
+}
+
+.RecentProjects {
+  width: 303px;
+  height: 37px;
+  float: left;
+  transform: translate(+43%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
+
+.action_btnview {
+  width: 197px;
+  height: 59px;
+  background: #0e0e0e;
+  border-color: #0e0e0e;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+.line {
+  position: relative;
+  width: 95%;
+  height: 8px;
+  background-color: #c4c4c4;
+
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.MockupRight {
+  position: relative;
+  float: right;
+  bottom: 360px;
+  left: 180px;
+}
+
+/* .textleft {
+  position: relative;
+  float: left;
+  width: 45%;
+  max-width: 800px;
+  top: 8px;
+} */
+
+/* .line2 {
+  position: absolute;
+  width: 95%;
+  height: 8px;
+  background-color: #c4c4c4;
+  top: 1820px;
+  margin-left: 34px;
+  margin-right: 34px;
+} */
+
+/* .textright2 {
+  position: relative;
+  float: right;
+
+  width: 100%;
+  max-width: 800px;
+  bottom: 200px;
+} */
+
+/* .MockupLeft2 {
+  position: absolute;
+  float: right;
+  top: 1900px;
+} */
+
+/* .line3 {
+  position: absolute;
+  width: 95%;
+  height: 8px;
+  background-color: #c4c4c4;
+  top: 2400px;
+  margin-left: 34px;
+  margin-right: 34px;
+} */
+
+/* .allProjects h1 {
+  position: absolute;
+  top: 2500px;
+  margin-left: 600px;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  color: #000000;
+} */
+
+/* .footer {
+  position: relative;
+  background-size: cover;
+  background-color: #3f3f3f;
+  top: 1900px;
+  width: 100%;
+  height: 105vh;
+} */
+
+/* .footer h1 {
+  position: relative;
+  top: 65px;
+} */
+
+/* .footer h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+} */
+
+/* .footerIlustration {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 15px;
+} */
