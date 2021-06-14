@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#recent-projects {
+  height: 40px;
+}
+
 .maincontainer {
   width: 100%;
   height: 100vh;
@@ -88,6 +96,78 @@ h2 {
   margin-left: -30px;
 }
 
+.menu img {
+  margin-top: 20px;
+}
+
+.menu-item.home {
+  width: 40px;
+  height: 30px;
+  background-image: url("../img/home.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.menu-item.user {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/user.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.menu-item.projects {
+  width: 45px;
+  height: 30px;
+  background-image: url("../img/projects.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.menu-item.message {
+  width: 36px;
+  height: 30px;
+  background-image: url("../img/message.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+.menu-item.linkedin {
+  width: 35px;
+  height: 30px;
+  background-image: url("../img/linkedin.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+.menu-item.behance {
+  width: 35px;
+  height: 30px;
+  background-image: url("../img/behance.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+/* .menu-item.home:hover {
+  background-image: url('../img/home-active.svg');
+} */
+.menu-item.user:hover {
+  background-image: url("../img/user-active.svg");
+}
+.menu-item.message:hover {
+  background-image: url("../img/message-active.svg");
+}
+.menu-item.projects:hover {
+  background-image: url("../img/projects-active.svg");
+}
+.menu-item.linkedin:hover {
+  background-image: url("../img/linkedin-active.svg");
+}
+.menu-item.behance:hover {
+  background-image: url("../img/behance-active.svg");
+}
+
+.a:hover {
+  color: #e9ad75;
+}
+
 .buttons {
   padding-top: 70px;
 }
@@ -105,17 +185,10 @@ h2 {
   margin-left: 100px;
 }
 
-
-
-
-
 .action_btnget:hover {
-
   background: #595959;
   cursor: pointer;
-
 }
-
 
 .action_btnrecent {
   font-size: 20px;
@@ -127,14 +200,10 @@ h2 {
   height: 59px;
   background: #3c6a78;
   border: 2px solid #3c6a78;
-  
 }
 
-
-
 .action_btnrecent:hover {
-
-  background: #3E7080;
+  background: #3e7080;
   border-color: #ffffff;
   cursor: pointer;
 }
@@ -207,8 +276,8 @@ h2 {
 
 .action_btnview:hover {
   border-color: solid;
-  border-color:#3C6A78;
-  background: #3C6A78;
+  border-color: #3c6a78;
+  background: #3c6a78;
   cursor: pointer;
 }
 
@@ -301,6 +370,7 @@ h2 {
 }
 
 .footer {
+  position: relative;
   display: flex;
   background-size: cover;
   background-color: #3f3f3f;
@@ -318,7 +388,7 @@ h2 {
 }
 
 .footer .footerIlustration img {
-  max-width: 930px;
+  max-width: 920px;
   padding-right: 55px;
   padding-top: 110px;
 }
@@ -334,18 +404,20 @@ h2 {
   font-weight: 400;
   color: #ffffff;
 }
-
-
-
-
-/* .footer .footerIlustration img {
-  background-image: url("/img//mail.png");
-  background-repeat: no-repeat; */
+.back-to-top {
+  background-image: url("../img/Group 515.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 150px;
+  padding-right: 70px;
 }
 
-/* .backToTop img {
-  float: right;
-} */
+.back-to-top:hover {
+  background-image: url("../img/back-to-top-active.svg");
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 1020px) {
   .VidiVaka-container {
