@@ -145,9 +145,9 @@ h2 {
   padding-bottom: 40px;
 }
 
-/* .menu-item.home:hover {
-  background-image: url('../img/home-active.svg');
-} */
+.menu-item.home:hover {
+  background-image: url("../img/home-active.svg");
+}
 .menu-item.user:hover {
   background-image: url("../img/user-active.svg");
 }
