@@ -42,19 +42,6 @@ h2 {
   font-weight: bold;
 }
 
-/* .UXUIBackground {
-  animation: stroke 2s ease-in-out;
-}
-
-@keyframes stroke {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 500px;
-  }
-} */
-
 .heroilustration {
   padding: 50px;
   padding-right: 70px;
@@ -63,7 +50,7 @@ h2 {
 
 .container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -118,43 +105,99 @@ h2 {
   margin-left: 100px;
 }
 
+
+
+
+
+.action_btnget:hover {
+
+  background: #595959;
+  cursor: pointer;
+
+}
+
+
 .action_btnrecent {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 50;
   color: white;
   width: 197px;
   height: 59px;
   background: #3c6a78;
-  border: 2px;
+  border: 2px solid #3c6a78;
+  
 }
 
-.textright {
-  position: relative;
-  float: right;
-  transform: translate(-2%);
-  width: 100%;
-  max-width: 800px;
-  bottom: 350px;
+
+
+.action_btnrecent:hover {
+
+  background: #3E7080;
+  border-color: #ffffff;
+  cursor: pointer;
 }
 
-.RecentProjects {
+.RecentProjects h1 {
+  float: left;
   width: 303px;
   height: 37px;
-  float: left;
-  transform: translate(+43%);
+  margin-left: 135px;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 30px;
   color: #000000;
+}
+
+.MockupRight img {
+  max-width: 700px;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+
+.BrainsterNext-container .MockupRight.left {
+  display: none;
+}
+
+.BrainsterNext-container .MockupRight.right {
+  display: block;
+}
+
+.VidiVaka-container .textright {
+  padding-left: 97px;
+}
+
+.VidiVaka-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.textright h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.textright p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .action_btnview {
   width: 197px;
   height: 59px;
   background: #0e0e0e;
-  border-color: #0e0e0e;
+  border: 2px solid #0e0e0e;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -162,99 +205,211 @@ h2 {
   color: white;
 }
 
+.action_btnview:hover {
+  border-color: solid;
+  border-color:#3C6A78;
+  background: #3C6A78;
+  cursor: pointer;
+}
+
 .line {
-  position: relative;
   width: 95%;
   height: 8px;
   background-color: #c4c4c4;
-
   margin-left: 34px;
   margin-right: 34px;
 }
 
-.MockupRight {
-  position: relative;
-  float: right;
-  bottom: 360px;
-  left: 180px;
+.BrainsterNext-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
-/* .textleft {
-  position: relative;
-  float: left;
-  width: 45%;
-  max-width: 800px;
-  top: 8px;
-} */
+.textleft {
+  padding: 121px 34px 109px 140px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
 
-/* .line2 {
-  position: absolute;
+.textleft h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.line2 {
   width: 95%;
   height: 8px;
   background-color: #c4c4c4;
   top: 1820px;
   margin-left: 34px;
   margin-right: 34px;
-} */
+}
 
-/* .textright2 {
-  position: relative;
-  float: right;
+.MockupLeft2 img {
+  padding-left: 135px;
+  padding-top: 80px;
+}
 
-  width: 100%;
-  max-width: 800px;
-  bottom: 200px;
-} */
+.textright2 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 800;
+  font-size: 25px;
+}
 
-/* .MockupLeft2 {
-  position: absolute;
-  float: right;
-  top: 1900px;
-} */
+.textright2 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
 
-/* .line3 {
-  position: absolute;
+.Janebank {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.textright2 {
+  padding-top: 80px;
+  padding-left: 97px;
+  padding-right: 137px;
+}
+
+.line3 {
   width: 95%;
   height: 8px;
   background-color: #c4c4c4;
-  top: 2400px;
   margin-left: 34px;
   margin-right: 34px;
-} */
+}
 
-/* .allProjects h1 {
-  position: absolute;
-  top: 2500px;
-  margin-left: 600px;
-  font-weight: normal;
-  font-size: 20px;
+.ViewAllProjects h1 {
+  text-align: center;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   text-decoration: underline;
-  color: #000000;
-} */
+  cursor: pointer;
+}
 
-/* .footer {
-  position: relative;
+.footer {
+  display: flex;
   background-size: cover;
   background-color: #3f3f3f;
-  top: 1900px;
   width: 100%;
-  height: 105vh;
-} */
+  height: 110vh;
+}
 
-/* .footer h1 {
-  position: relative;
-  top: 65px;
-} */
-
-/* .footer h1 {
-  color: #ffffff;
+.footer h1 {
+  padding-left: 135px;
+  padding-top: 100px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   font-size: 30px;
+  color: #ffffff;
+}
+
+.footer .footerIlustration img {
+  max-width: 930px;
+  padding-right: 55px;
+  padding-top: 110px;
+}
+
+.footer .footerIlustration h2 {
+  text-align: center;
+  padding-right: 290px;
+  padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+
+
+
+/* .footer .footerIlustration img {
+  background-image: url("/img//mail.png");
+  background-repeat: no-repeat; */
+}
+
+/* .backToTop img {
+  float: right;
 } */
 
-/* .footerIlustration {
-  position: absolute;
-  margin-left: 300px;
-  margin-top: 15px;
-} */
+@media screen and (max-width: 1020px) {
+  .VidiVaka-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .BrainsterNext-container {
+    flex-direction: column;
+  }
+  .BrainsterNext-container .MockupRight.left {
+    display: block;
+  }
+  .BrainsterNext-container .MockupRight.right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .hero {
+    display: flex;
+
+    height: 896px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .heroilustration .herotext .UXUIBackground .buttons {
+    float: none;
+    width: initial;
+    height: initial;
+  }
+
+  .heroilustration .herotext .UXUIBackground .buttons {
+    position: initial;
+  }
+
+  .heroilustration {
+    display: flex;
+  }
+  .heroilustration {
+    width: 378px;
+    height: 382px;
+    margin-top: 0;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+  }
+
+  .herotext h1 {
+    margin-top: 400px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .UXUIBackground h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+  }
+}
